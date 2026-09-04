@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime-generated files
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+*.log
+
+# Large video datasets and generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+data/raw/*
+!data/raw/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
