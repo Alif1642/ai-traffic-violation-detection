@@ -1,8 +1,8 @@
 streamlit>=1.38,<2.0
 ultralytics>=8.3,<9.0
 easyocr>=1.7,<2.0
-opencv-python-headless>=4.10,<5.0
-numpy>=1.26,<2.3
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
 pandas>=2.2,<3.0
 lap>=0.5.12
 Pillow>=10.0
